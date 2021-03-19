@@ -83,7 +83,7 @@ a:hover {
     align-items: flex-start;
     align-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     margin: 10px;
     position: relative;
 
@@ -128,13 +128,15 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+   
 
 }
 
 li {
     /*    To have them go next to each other*/
     display: inline-block;
-    margin: 5px;
+    margin: 5px 35px 5px -15px;
+    
     /*    to give space around them*/
 
 }
