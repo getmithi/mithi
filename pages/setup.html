@@ -9,41 +9,91 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="https://use.typekit.net/aoc0uox.css">
-    
+    <link rel="stylesheet" href="https://use.typekit.net/aoc0uox.css">
+
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-    
-    <link rel="shortcut icon" type="img/png" href="assets/imgs/index-imgs/favicon.png">
+
+    <link rel="shortcut icon" type="img/png" href="/assets/imgs/favicons-02.png">
 </head>
 
- <div class="container">
+<div class="container">
 
 
-        <div class="flex-container">
-            <div>
-                <a href="https://mymithi.com">
-                    <h1>mithi</h1>
-                </a>
-            </div>
-<!-- nav
-            <div>
-                <ul>
-                    <li><a href="pages/intro.html">Our Mission</a></li>
-                    <li><a href="pages/setup.html">Sign Up</a></li>
-                </ul>
-            </div>
--->
+    <div class="flex-container">
+
+        <div>
+            <a href="https://mymithi.com">
+                <h1>mithi</h1>
+            </a>
+        </div>
+        <div> <img src="/assets/imgs/favicons-01.png" class="small"></div>
+    </div>
+
+
+
+
+    <div class="page">
+        <div>
+            <h2>Let's get acquainted.</h2>
+        </div>
+        <div class="sumspace"><label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <div class="sumspace">
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         </div>
 
-
-        <div class="page">
-   <h2>Let's get acquainted.</h2>
-            
-
+<!--        partner drop-->
+        <div class="sumspace long">
+        <label for="part">What are you using mithi to find?</label>
+        <br>
+        <select id="part" name="part">
+            <option value="rom">Romantic/Life Partner</option>
+            <option value="child">Successor</option>
+            <option value="emp">Employee</option>
+        </select>
         </div>
-
-
+<!--        gender drop-->
+         <div class="sumspace long">
+        <label for="gender">What is your gender preference when it comes to what you're looking for?</label>
+        <br>
+        <select id="gender" name="gender">
+            <option value="fem">Female</option>
+            <option value="masc">Male</option>
+            <option value="no">No preference</option>
+        </select>
+        </div>
+        
+        <!--        perso dropdown-->
+          <div class="sumspace long">
+        <label for="personality">What kind of personality are you drawn to?</label>
+        <br>
+        <select id="personality" name="personality">
+            <option value="lotusblossom">Timid and reserved</option>
+            <option value="abg">Feisty and shallow</option>
+            <option value="helper">Modest and accomodating</option>
+            <option value="pageantqueen">Confident and leaderlike</option>
+        </select>
+        </div>
+        <!--           slider-->
+        <div class="slidetotheright">
+            <span id="rangeValue">0</span>
+            <Input class="range" type="range" name "" value="0" min="0" max="300" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+        </div>
+        <script type="text/javascript">
+            function rangeSlide(value) {
+                document.getElementById('rangeValue').innerHTML = value;
+            }
+        </script>
+        <!--            end of slider-->
 
     </div>
-<!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT -->
-</html>
+
+
+
+</div>
+
+<!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT --></html>
