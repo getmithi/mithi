@@ -69,20 +69,6 @@ p {
 .alone{
     margin-left: 10px;
 }
-button {
-    font-family: 'henderson-slab-basic', serif;
-    background-color: #fff0d6;
-    font-weight: 400;
-    border: none;
-    color: #a7a063;
-    padding: 15px 15px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 10px 10px;
-    width: 400px;
-}
 
 button .edit {
     display: none;
@@ -110,8 +96,8 @@ a:visited {
 }
 
 a:hover {
-    color: #095c45;
-    opacity: .7;
+    color: #EC7698;
+  
 }
 
 
