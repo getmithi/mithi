@@ -27,7 +27,7 @@ h2 {
     font-style: normal;
     text-align: left;
     color: #095c45;
-    font-size: 70px;
+    font-size: 65px;
     margin: 0px;
 }
 
@@ -244,4 +244,9 @@ input[type=submit]:hover {
 
 .long{
     width:500px;
+}
+
+.bringitin{
+    width: 750px;
+    line-height: 1.15;
 }

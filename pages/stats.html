@@ -34,22 +34,21 @@
 
     <div class="page">
         <div>
-            <h2>Let's get acquainted.</h2>
+            <h2 class="bringitin">Set your preferred physique range.</h2>
         </div>
-        <div class="sumspace"><label for="fname">First Name</label>
-            <br>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div class="sumspace">This is required.</div>
+        <!--        partner drop-->
+        <div class="sumspace long">
+              <!--           slider-->
+        <div class="slidetotheright">
+            <span id="rangeValue">0</span>
+            <Input class="range" type="range" name "Height" value="0" min="0" max="300" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
         </div>
-        <div class="sumspace">
-            <label for="lname">Last Name</label>
-            <br>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        </div>
-
-        
- 
-    
-        <!--            end of slider-->
+        <script type="text/javascript">
+            function rangeSlide(value) {
+                document.getElementById('rangeValue').innerHTML = value;
+            }
+        </script>
 
     </div>
 
@@ -57,4 +56,6 @@
 
 </div>
 
-<!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT --></html>
+<!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT -->
+
+</html>
