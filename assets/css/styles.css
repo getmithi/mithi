@@ -242,7 +242,7 @@ input[type=submit]:hover {
 }
 
 .sumspace {
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 .long {
@@ -261,7 +261,17 @@ input[type=submit]:hover {
     font-size: 24px;
     background-color: #b9d1ed;
     border: none;
-    padding: 10px 0px;
+    padding: 0px 0px;
      color: #095c45;
 
+}
+
+.comingsoon{
+    opacity:.4
+}
+
+
+.message{
+    margin: 0px;
+    padding: 0px;
 }
