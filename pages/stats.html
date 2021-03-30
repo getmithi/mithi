@@ -30,17 +30,39 @@
 
         <div class="page">
             <div>
-                <h2 class="bringitin">Set your preferred physique range.</h2>
+                <h2 class="bringitin">Set the parameters for your physique preference.</h2>
             </div>
             <div class="sumspace">This is required.</div>
-            <!--        partner drop-->
-            <div class="sumspace long">
-                <!--           slider-->
-                <div class="slidetotheright">
-                    <span id="rangeValue">0</span>
-                    <Input class="range" type="range" name "" value="0" min="0" max="300" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+
+            <div class="long flex-container">
+
+                <div>
+                    <p class="button">Height</p>
+                    <p class="message"> </p>
                 </div>
 
+
+                <div class="slidetotheright">
+                    <span id="rangeValue">140 cm</span>
+                    <Input class="range" type="range" name "" value="0" min="140" max="195" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+                </div>
+            </div>
+            <!--                weight-->
+            <div class="long flex-container">
+                <div>
+                    <p class="button">Weight</p>
+                    <p class="message">Special deal: <br>Save 5% off your offer if you select 130lbs or higher </p>
+                </div>
+
+                <div class="slidetotheright">
+                    <span id="rangeValue">90 lbs</span>
+                    <Input class="range" type="range" name "" value="0" min="90" max="300" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+                </div>
+
+                <!-- height-->
+
+
+                <div class="flex-container long"><a href="catalog.html"><button class="advance">Finish</button></a></div>
 
             </div>
 
