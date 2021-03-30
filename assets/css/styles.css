@@ -148,6 +148,15 @@ li {
     font-weight: 400;
 }
 
+#rangeValue2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #EC7698;
+    font-weight: 400;
+}
+
 .range {
     width: 250px;
     height: 15px;

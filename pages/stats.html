@@ -37,7 +37,7 @@
             <div class="long flex-container">
 
                 <div>
-                    <p class="button">Height</p>
+                    <p class="button">Height (cm)</p>
                     <p class="message"> </p>
                 </div>
 
@@ -50,13 +50,13 @@
             <!--                weight-->
             <div class="long flex-container">
                 <div>
-                    <p class="button">Weight</p>
+                    <p class="button">Weight (lb)</p>
                     <p class="message">Special deal: <br>Save 5% off your offer if you select 130lbs or higher </p>
                 </div>
 
                 <div class="slidetotheright">
-                    <span id="rangeValue">90 lbs</span>
-                    <Input class="range" type="range" name "" value="0" min="90" max="300" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+                    <span id="rangeValue2">90 lbs</span>
+                    <Input class="range" type="range" name "" value="0" min="90" max="300" onChange="range2Slide(this.value)" onmousemove="range2Slide(this.value)"></Input>
                 </div>
 
                 <!-- height-->
@@ -73,6 +73,10 @@
     <script type="text/javascript">
         function rangeSlide(value) {
             document.getElementById('rangeValue').innerHTML = value;
+        }
+        
+        function range2Slide(value) {
+            document.getElementById('rangeValue2').innerHTML = value;
         }
     </script>
 
