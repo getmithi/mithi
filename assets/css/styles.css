@@ -241,9 +241,8 @@ input[type=submit]:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    background-color: #b9d1ed;
     border: none;
-    margin: 20px 0px;
+    margin: 25px 0px;
     padding: 0px 0px;
     color: #095c45;
 
@@ -340,4 +339,17 @@ input[type=submit]:hover {
 	height: 8px;
 	border-radius: 50%;
 	background: #FDF3DC;
+}
+
+.profile{
+    width:200px;
+    margin: 15px 0px;
+    padding:5px;
+/*
+    background-color: #FCE9C3; 
+    border-radius: 10px;
+*/
+}
+#thumb{
+    width:200px;
 }
