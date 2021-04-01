@@ -188,7 +188,7 @@ li {
 }
 
 input[type=text],
-select {
+select, input[type=number] {
     width: 300px;
     padding: 12px 10px;
     margin: 8px 0;
@@ -269,6 +269,7 @@ input[type=submit]:hover {
     margin: 0px;
     padding: 0px;
     max-width: 200px;
+    font-size: 16px;
 }
 
 .advance {
@@ -371,4 +372,12 @@ input[type=submit]:hover {
 
 .profmarg{
     margin: 0px 30px;
+}
+
+.cash{
+    margin-right:5px;
+}
+
+#cash{
+    width:280px;
 }
