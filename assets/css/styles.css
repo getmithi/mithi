@@ -365,3 +365,10 @@ input[type=submit]:hover {
 #thumb{
     width:200px;
 }
+.bigpic{
+    width: 400px;
+}
+
+.profmarg{
+    margin: 0px 20px;
+}
