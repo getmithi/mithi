@@ -248,6 +248,18 @@ input[type=submit]:hover {
 
 }
 
+.button2 {
+    font-family: 'paralucent-text', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    border: none;
+    margin: 5px 0px;
+    padding: 0px 0px;
+    color: #095c45;
+
+}
+
 .comingsoon {
     opacity: .4
 }
