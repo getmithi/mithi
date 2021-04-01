@@ -189,7 +189,7 @@ li {
 
 input[type=text],
 select, input[type=number],input[type=date] {
-    width: 300px;
+    width: 350px;
     padding: 12px 10px;
     margin: 8px 0;
     display: inline-block;
@@ -379,5 +379,5 @@ input[type=submit]:hover {
 }
 
 #cash{
-    width:280px;
+    width:330px;
 }
