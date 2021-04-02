@@ -265,7 +265,7 @@ input[type=submit]:hover {
 }
 
 
-.message {
+.message {x
     margin: 0px;
     padding: 0px;
     max-width: 200px;
@@ -397,7 +397,6 @@ input[type=submit]:hover {
     color: #095c45;
     text-decoration: none;
     font-weight: 600;
-    font-style: italic;
 }
 
 
