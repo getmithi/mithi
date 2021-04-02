@@ -30,7 +30,7 @@ h2 {
 }
 
 p {
-    max-width: 600px;
+    max-width: 610px;
     text-align: left;
     line-height: 1.4;
 
@@ -42,7 +42,7 @@ p {
 }
 
 .page {
-    margin: 25px;
+    margin: 20px;
     margin-bottom: 50px;
 }
 
@@ -403,7 +403,7 @@ input[type=submit]:hover {
    position: absolute;
     right:0px;
     top:10px;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 
