@@ -119,6 +119,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: left;
     position: relative;
+    margin:10px;
 
 }
 
@@ -383,7 +384,7 @@ input[type=submit]:hover {
     width:200px;
 }
 .bigpic{
-    width: 500px;
+    width: 600px;
 }
 
 .profmarg{
