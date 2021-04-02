@@ -283,7 +283,7 @@ input[type=submit]:hover {
     text-decoration: none;
     border-style: none;
     color: #FDF3DC;
-    margin: 40px 0px;
+    margin: 0px -15px;
 }
 
 #somespace{
@@ -380,4 +380,40 @@ input[type=submit]:hover {
 
 #cash{
     width:330px;
+}
+
+.topright{
+   position: absolute;
+    right:0px;
+    top:10px;
+}
+
+
+.panghuli a {
+    color: #095c45;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+ visited link 
+a:visited .panghuli{
+    color: #EC7698;
+}
+
+a:hover .panghuli{
+    color: #FCE9C3;
+    font-style: normal;
+
+}
+.medium{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.middle{
+    align-items: center;
+margin-left:0px;
+
 }
