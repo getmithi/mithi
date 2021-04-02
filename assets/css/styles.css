@@ -272,6 +272,10 @@ input[type=submit]:hover {
     font-size: 16px;
 }
 
+.agreement{
+    max-width:700px;
+    font-style: italic;
+}
 .advance {
     background-color: #EC7698;
     font-family: 'paralucent-text', sans-serif;
@@ -283,7 +287,7 @@ input[type=submit]:hover {
     text-decoration: none;
     border-style: none;
     color: #FDF3DC;
-    margin: 0px -15px;
+    margin: 0px;
 }
 
 #somespace{
@@ -416,4 +420,8 @@ a:hover .panghuli{
     align-items: center;
 margin-left:0px;
 
+}
+
+.moveova{
+    margin-left:200px;
 }

@@ -18,7 +18,7 @@
 
 <body>
     <div class="container">
-         <div><a href="checkout.html"></a><img src="/assets/imgs/full-cart-07.png" class="small topright"></div>
+        <div><a href="checkout.html"></a><img src="/assets/imgs/full-cart-07.png" class="small topright"></div>
 
         <div class="flex-container">
             <div>
@@ -28,14 +28,48 @@
                 </a>
             </div>
             <div> <a href="/index.html"> <img src="/assets/imgs/favicons-01.png" class="small"></a></div>
-               
+
         </div>
 
         <div class="page">
-        <div><h2>Your Cart</h2></div><br><br>
+            <div>
+                <h2>Your Cart</h2>
+            </div><br><br>
             <div class="flex-container middle">
-                <div><img src="/assets/imgs/heart-08.png" class="medium"></div><div><p>(1x) Romatic Partner Proposal</p></div></div>
+                <div><img src="/assets/imgs/heart-08.png" class="medium"></div>
+                <div>
+                    <p>(1x) Romatic Partner Proposal</p>
+                </div>
+                <div>
+                    <p class="moveova">Total will be calculated at checkout</p>
+                </div>
+            </div><br><br>
+            <div class="agreement">
+                <form onsubmit="return checkForm(this);">
+
+                    <p><input type="checkbox" name="terms" name="agreement">I am aware of my role as a mithi user and understand that mithi is only responsible for providing matches based off algorithmic compatability based on the information sourced from my profile. mithi is not responsible for the potential of trauma induced by the extensive expectations of the mail-order service unto my chosen mithi match.</p><br>
+                    <p><input type="Submit" class="button advance" name="Checkout"></p>
+                </form><br>
+            </div>
+
+
+            <br><br><br>
+            <div></div>
         </div>
     </div>
+
+
 </body>
+
+<script>
+    function checkForm(form) {
+
+        if (!form.terms.checked) {
+            alert("Please indicate that you accept the Terms and Conditions");
+            form.terms.focus();
+            return false;
+        }
+        return true;
+    }
+</script>
 <!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT --></html>
