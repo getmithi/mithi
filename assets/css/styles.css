@@ -13,7 +13,6 @@ h1 {
     font-weight: 700;
     font-style: normal;
     text-align: left;
-    color: #095c45;
     margin: 10px;
     top: -10px;
     left: 10px;
@@ -26,7 +25,6 @@ h2 {
     font-weight: 400;
     font-style: normal;
     text-align: left;
-    color: #095c45;
     font-size: 65px;
     margin: 0px;
 }
@@ -108,7 +106,7 @@ a:hover {
     align-content: space-between;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 10px;
+    margin: 0px;
     position: relative;
 
 }
@@ -290,6 +288,20 @@ input[type=submit]:hover {
     margin: 0px;
 }
 
+.advance2 {
+    background-color: #b9d1ed;
+    font-family: 'paralucent-text', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none;
+    color: #095c45;
+    margin: 0px;
+}
+
 #somespace{
     margin: 25px 10px 15px 10px;
 }
@@ -423,4 +435,18 @@ margin-left:0px;
 
 .moveova{
     margin-left:200px;
+}
+
+.pangpage, .pangpage a{
+    background-color: #EC7698;
+    color:#FCE9C3;
+}
+
+.pangpage a:hover{
+    color: #b9d1ed;
+}
+
+.large{
+    width:200px;
+    margin: -20px 40px;
 }
