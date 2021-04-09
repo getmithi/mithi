@@ -28,7 +28,7 @@
                 </a>
             </div>
             <div> <a href="catalog.html"> <img src="/assets/imgs/favicons-01.png" class="small"></a></div>
-             <div>
+            <div>
                 <ul>
                     <li><a href="setup.html">Settings</a></li>
                     <li><a href="/index.html">Sign Out</a></li>
@@ -51,11 +51,13 @@
                 </div>
             </div><br><br>
             <div class="agreement">
-                <form onsubmit="return checkForm(this);">
+                <form action="final.html" onsubmit="return checkForm(this);">
 
-                    <p><input type="checkbox" name="terms" name="agreement">I am aware of my role as a mithi user and understand that mithi is only responsible for providing matches based off algorithmic compatability based on the information sourced from my profile. <br>mithi is not responsible for the potential of trauma induced by the extensive expectations of the mail-order service unto my chosen mithi match.</p><br>
-                    <p><input type="Submit" class="button advance" name="Checkout"></p>
-                </form><br>
+                    <p><input type="checkbox" name="terms" name="agreement">I understand that mithi is not responsible for the potential of trauma induced by the extensive expectations of the mail-order service unto my chosen <i>mithi</i> match.</p><br>
+                    <!--                  <a href="final.html"><div><input type="Submit" class="button advance" name="Checkout"></div></a>-->
+                    <!--                    <input type="button" onclick="location.href='final.html';" value="Go to final page" />-->
+                    <a href="final.html"><button class="advance">Checkout</button></a>
+                </form> <br>
             </div>
 
 
@@ -74,8 +76,9 @@
             alert("Please indicate that you accept the Terms and Conditions");
             form.terms.focus();
             return false;
+        } 
+            return true;
         }
-        return true;
     }
 </script>
 <!-- Mirrored from artfiles.rutgers.edu/~reyes@art.rutgers.edu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 19:59:36 GMT --></html>

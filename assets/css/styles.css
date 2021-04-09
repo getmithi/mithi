@@ -285,7 +285,7 @@ input[type=submit]:hover {
 }
 
 
-.message {x
+.message {
     margin: 0px;
     padding: 0px;
     max-width: 200px;
@@ -294,7 +294,8 @@ input[type=submit]:hover {
 
 .agreement{
     max-width:700px;
-    font-style: italic;
+    font-size: 20px;
+
 }
 .advance {
     background-color: #EC7698;
