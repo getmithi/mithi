@@ -6,6 +6,7 @@ body {
     font-style: normal;
     font-size: 16px;
     color: #095c45;
+   
 }
 
 h1 {
@@ -475,4 +476,23 @@ margin-left:0px;
 
 .thanks{
    margin:20px 15px;
+}
+
+.bigtext{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0px -5px 0px;
+}
+
+p{
+     letter-spacing: .1px;
+}
+.testimonial{
+    width: 390px;
+    margin: 0px 40px 0px -10px;
+}
+
+.testimonial2{
+    width: 390px;
+    margin: 0px 0px 0px 30px;
 }
